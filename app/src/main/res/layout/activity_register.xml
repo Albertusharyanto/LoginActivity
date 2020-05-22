@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/rsz_wow2"
     android:gravity="center_horizontal"
 
     tools:context=".RegisterActivity">
@@ -48,7 +49,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:textColor="#000000"
+            android:textColor="#F8F5F5"
             android:text="@string/already_registered"/>
         <TextView
             android:id="@+id/textview_login"
@@ -56,7 +57,7 @@
             android:layout_height="35dp"
             android:paddingLeft="10dp"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="#CFCFCF"
             android:textSize="16sp"
             android:text="@string/login"/>
 

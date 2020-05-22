@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-
+    android:background="@drawable/rsz_wow"
     >
 
 <EditText
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:textColor="#000000"
+        android:textColor="#F5EEEE"
         android:text="@string/not_registered"/>
     <TextView
         android:id="@+id/textview_register"
@@ -51,7 +51,7 @@
         android:layout_height="35dp"
         android:paddingLeft="10dp"
         android:textStyle="bold"
-        android:textColor="#000000"
+        android:textColor="#CFCDCD"
         android:text="@string/register"/>
 
 
